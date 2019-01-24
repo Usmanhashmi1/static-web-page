@@ -1,0 +1,104 @@
+.navbar-inverse{
+	margin: 0px;
+	padding: 0px 10px;
+	border-radius: 0px;
+	border: 0px;
+    
+}
+
+.container-fluid{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+body{
+	background-color: white;
+}
+.writing{
+	padding: 30px;
+	
+
+}
+.writing h1{
+	font-family: sans-serif;
+	color: orange;
+}
+.writing p{
+	font-family: serif;
+}
+.writing hr{
+	size: 10px;
+}
+.rooms .container{
+	text-align: center;
+}
+.rooms .container .row{
+	margin-left: 60px;
+}
+.carousel-caption h3{
+	color: orange;
+}
+.carousel-caption p{
+	color:white;
+}
+.rooms .container .row .col-md-3{
+	background-color: white;
+    border: 5px solid orange; 
+	margin: 15px 40px;
+	padding: 20px 0px;
+}
+.services .container .row{
+	margin-left: 30px;
+}
+
+.services .container .row .col-md-5{
+	border:5px solid orange;
+	color: gray;
+	margin:20px;
+	margin-left: 50px;
+}
+.specialpackages h2{
+	color: orange;
+	padding: 20px;
+}
+hr{
+	padding: 1px;
+	background-color: orange;
+	opacity: 0.5;
+	
+}
+
+.specialpackages .row{
+	text-align: center;
+	margin-left: 200px;
+}
+.specialpackages .row .col-md-3{
+		margin: 10px 25px;
+}
+.btn{
+	background-color: black;
+}
+
+.btn:hover{
+	background-color: black;
+	color: orange;
+}
+.final{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+.rooms h3{
+	color: orange;
+}
+.rooms p{
+	color:orange;
+}
+
+.specialpackages .row .col-md-3{
+	border: 4px solid orange;
+	border-bottom: 0px solid orange;
+	margin: 4px;
+}

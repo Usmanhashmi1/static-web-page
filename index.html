@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Elegant Hotel</title>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+	<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+        .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+  </style>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  	<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><span style="color:orange;">Hotel-</span>-Service</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<!-- End of Navigation Bar -->
+
+<div class="container-fluid">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" style="background-color:black; padding: 0px; margin: 0px;" role="listbox">
+
+      <div class="item active">
+        <img src="img/room2.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Two Bedroom</h3>
+          <p>The atmosphere has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/room1.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>One Bedroom</h3>
+          <p>Very simple and Unique experience.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/room2.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Sweatroom</h3>
+          <p>You have a family or just love spacial room.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/room2.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Two Bedroom</h3>
+          <p>The atmosphere has a touch of Florence.</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" style="background-color:black; width:30px; padding: 0px; margin: 0px;" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" style="background-color:black; width:30px; padding: 0px; margin: 0px;" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+	<!-- End Of slideshow (carasoul) -->
+	
+	<section class="writing">
+		<div class="container text-center">
+			<div class="text">
+				<h1 style="font-family:'Brush Script Std'">Your Service Is Our Honor</h1>
+				<p style="color:gray;">We Love our customer, we believe customer is always write.</p>
+				
+			</div>
+		</div>
+	</section>
+
+
+	<section class="rooms">
+	<hr style="width:500px;">
+	<div class="services-writing text-center" style="padding: 0px; color: orange">
+			<h2 style="font-family: 'Bodoni MT Black'">Our Services</h2>
+		</div>
+		<hr style="width:500px;">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<h3>Comfortable Rooms</h3>
+					<img class="img img-responsive" src="img/comfortable.jpg">
+					<p>Let us serve you</p>
+				</div>
+
+				<div class="col-md-3 text-center">
+					<h3>Dinning Hall</h3>
+					<img class="img img-responsive" src="img/dinninghall.jpg">
+					<p>Let us serve you</p>
+				</div>
+
+				<div class="col-md-3 text-center">
+					<h3>Movie Hall</h3>
+					<img class="img img-responsive" src="img/moviehall.jpg">
+					<p>Let us serve you</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="rooms">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<h3>Swimming pool</h3>
+					<img class="img img-responsive" src="img/swimmingpool.jpg">
+					<p>Let us serve you</p>
+				</div>
+
+				<div class="col-md-3 text-center">
+					<h3>Massage Room</h3>
+					<img class="img img-responsive" src="img/messageroom.jpg">
+					<p>Let us serve you</p>
+				</div>
+
+				<div class="col-md-3 text-center">
+					<h3>Culture Show</h3>
+					<img class="img img-responsive" src="img/cultureshow.jpg">
+					<p>Let us serve you</p>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+			<section class="specialpackages container-fluid">
+				<hr style="width:500px">
+				<div class="text-center">
+					<h2 style="font-family: 'Bodoni MT Black'">Special Packages </h2>
+					<hr style="width:500px">
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<img class="img img-responsive" src="img/room2.jpg">
+						<p>Two Beds one week $500.</p>
+						<hr>
+						<p>*****</p>
+						<P>Available</P>
+						<button class="form-control btn btn-primary">BOOK NOW</button>
+
+					</div>
+					<div class="col-md-3">
+						<img class="img img-responsive" src="img/suite.jpg">
+						<p>Four Beds suite one week $1000.</p>
+						<hr>
+						<p>*****</p>
+						<P>Available</P>
+						<button class="form-control btn btn-primary">BOOK NOW</button>
+
+					</div>
+					<div class="col-md-3">
+						<img class="img img-responsive" src="img/room1.jpg">
+						<p>One Bed Luxuary one week $500.</p>
+						<hr>
+						<p>*****</p>
+						<P>Available</P>
+						<button class="form-control btn btn-primary">BOOK NOW</button>
+
+					</div>
+					
+				</div>
+				<hr>
+			</section>
+    
+			</div>
+		</div>
+
+	</section>
+	<footer class="final">
+		<div class="container">
+		<p>Contact Numbers: 000000000</p>
+		<p>Cell Phones: 03319296685 <span class="glyphicon glyphicon-phone"></span></p>	
+		<p>Landline: (+92) 91445566</p>	
+
+		<a href="www.facebook.com" style="color: white;">Facebook</a>
+		<a href="www.twitter.com" style="color: white;">Twitter</a>
+		<a href="www.googleplus.com" style="color: white;">Google Plus </a><span class="glyphicon glyphicon-globe"></span>
+		<p>We would <span>Love</span> to hear from you!</p>	
+		</div>
+	</footer>
+</body>
+</html>
